@@ -1,15 +1,17 @@
 import Layout from "../components/Layout";
 import { useState } from "react";
-import TransportImg from "../assets/images/bus.jpg"; // replace with your real bus image
-import TransportationPDF from "../assets/pdfs/SummerCrest_Transportation_Form.pdf"// replace with your real PDF
+import TransportImg from "../assets/images/bus.jpg"; 
+import TransportationPDF from "../assets/pdfs/SummerCrest_Transportation_Form.pdf";
+import SCLAPoliciesPDF from "../assets/pdfs/SCLA_Policies_Procedures.pdf";
+import SCLAConductPDF from "../assets/pdfs/SCLA_Code_of_Conduct.pdf";
 
 
 // === EVENTS YOU CAN EDIT ===
 const events = [
-  { date: "2025-03-12", title: "Field Trip: Zoo", type: "event" },
-  { date: "2025-03-15", title: "Parent/Teacher Conferences", type: "important" },
-  { date: "2025-03-22", title: "No School – Teacher Workday", type: "noschool" },
-  { date: "2025-04-05", title: "Spring Showcase", type: "important" },
+  { date: "2025-11-12", title: "Field Trip: Zoo", type: "event", type: "important" },
+  { date: "2025-11-15", title: "Parent/Teacher Conferences", type: "important" },
+  { date: "2025-11-22", title: "No School – Teacher Workday", type: "noschool", type: "important" },
+  { date: "2025-11-05", title: "Spring Showcase", type: "important" },
 ];
 
 // Color styles for different event types
@@ -190,12 +192,12 @@ export default function Resources() {
             {[
               {
                 title: "Policies & Procedures",
-                link: "#",
+                link: SCLAPoliciesPDF,
                 desc: "School expectations, arrival/dismissal, attendance, safety protocols.",
               },
               {
                 title: "Code of Conduct",
-                link: "#",
+                link: SCLAConductPDF,
                 desc: "Behavior expectations that support a safe and respectful school environment.",
               },
               {

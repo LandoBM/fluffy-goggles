@@ -11,6 +11,7 @@ import Resources from "./pages/Resources";
 import Contact from "./pages/Contact";
 import Staff from "./pages/Staff";
 import Community from "./pages/Community";
+import ThankYou from "./pages/ThankYou";
 
 export default function App() {
   return (
@@ -51,6 +52,8 @@ export default function App() {
             <Route path="/staff" element={<Staff />} />
             <Route path="/community" element={<Community />} />
             <Route path="/admissions" element={<Admissions />} />
+            <Route path="/thank-you" element={<ThankYou />} />
+
           </Routes>
         </main>
         <Footer />

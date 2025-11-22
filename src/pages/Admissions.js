@@ -1,4 +1,8 @@
 import Layout from "../components/Layout";
+import MaleStudent from "../assets/images/maleStudent.jpg";
+import CloseKid from "../assets/images/closeUpKid.jpg";
+import Mascot from "../assets/images/mascot.png"; 
+import kidStudying from "../assets/images/kidStudy.jpg";
 
 export default function Admissions() {
   return (
@@ -37,9 +41,9 @@ export default function Admissions() {
 
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <img
-                src="https://images.unsplash.com/photo-1590410501629-87b1f6e963d1?auto=format&fit=crop&w=1400&q=80"
+                src={MaleStudent}
                 alt="Kids painting and smiling"
-                className="rounded-2xl shadow-md object-cover h-64 w-full"
+                className="rounded-2xl shadow-md object-cover h-64 w-full "
               />
 
               <ol className="list-decimal pl-6 space-y-3 text-gray-800 text-lg">
@@ -69,17 +73,17 @@ export default function Admissions() {
             {/* Image Grid */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 max-w-5xl mx-auto">
               <img
-                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=80"
+                src={CloseKid}
                 className="rounded-2xl h-48 w-full object-cover shadow-lg"
                 alt="Kids smiling"
               />
               <img
-                src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9c?auto=format&fit=crop&w=1400&q=80"
-                className="rounded-2xl h-48 w-full object-cover shadow-lg"
+                src={Mascot}
+                // className="rounded-2xl h-48 w-full object-cover shadow-lg"
                 alt="Kids at desks"
               />
               <img
-                src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1400&q=80"
+                src={kidStudying}
                 className="rounded-2xl h-48 w-full object-cover shadow-lg"
                 alt="Kids doing art"
               />
@@ -103,7 +107,7 @@ export default function Admissions() {
               </span>
             </p>
             <p className="text-lg text-gray-700">
-              Phone: <span className="font-semibold text-blue-700">(555) 123-4567</span>
+              Phone: <span className="font-semibold text-blue-700">(786) 582-5599</span>
             </p>
           </section>
 

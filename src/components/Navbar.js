@@ -8,7 +8,6 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-
         {/* LEFT: Logo + School Name */}
         <div className="flex items-center gap-3">
           <img src={Mascot} alt="Mascot" className="h-10 w-auto" />
@@ -24,12 +23,36 @@ export default function Navbar() {
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex gap-8 text-gray-700 font-semibold items-center">
-          <li><Link to="/" className="hover:text-blue-700">Home</Link></li>
-          <li><Link to="/about" className="hover:text-blue-700">About</Link></li>
-          <li><Link to="/programs" className="hover:text-blue-700">Programs</Link></li>
-          <li><Link to="/resources" className="hover:text-blue-700">Resources</Link></li>
-          <li><Link to="/staff" className="hover:text-blue-700">Staff</Link></li>
-          <li><Link to="/contact" className="hover:text-blue-700">Contact</Link></li>
+          <li>
+            <Link to="/" className="hover:text-blue-700">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="hover:text-blue-700">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/programs" className="hover:text-blue-700">
+              Programs
+            </Link>
+          </li>
+          <li>
+            <Link to="/resources" className="hover:text-blue-700">
+              Resources
+            </Link>
+          </li>
+          <li>
+            <Link to="/staff" className="hover:text-blue-700">
+              Staff
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="hover:text-blue-700">
+              Contact
+            </Link>
+          </li>
 
           {/* SPECIAL ADMISSIONS BUTTON */}
           <li>
@@ -39,6 +62,18 @@ export default function Navbar() {
             >
               Admissions
             </Link>
+          </li>
+         
+          {/* SPECIAL PAY TUITION BUTTON */}
+          <li>
+            <a
+              href="https://www.paypal.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-green-800 transition"
+            >
+              Pay Tuition
+            </a>
           </li>
         </ul>
 
@@ -58,12 +93,48 @@ export default function Navbar() {
       {/* MOBILE DROPDOWN MENU */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-inner px-6 py-4 space-y-4 text-gray-700 font-medium">
-          <Link onClick={() => setMenuOpen(false)} to="/" className="block hover:text-blue-700">Home</Link>
-          <Link onClick={() => setMenuOpen(false)} to="/about" className="block hover:text-blue-700">About</Link>
-          <Link onClick={() => setMenuOpen(false)} to="/programs" className="block hover:text-blue-700">Programs</Link>
-          <Link onClick={() => setMenuOpen(false)} to="/resources" className="block hover:text-blue-700">Resources</Link>
-          <Link onClick={() => setMenuOpen(false)} to="/staff" className="block hover:text-blue-700">Staff</Link>
-          <Link onClick={() => setMenuOpen(false)} to="/contact" className="block hover:text-blue-700">Contact</Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/"
+            className="block hover:text-blue-700"
+          >
+            Home
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/about"
+            className="block hover:text-blue-700"
+          >
+            About
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/programs"
+            className="block hover:text-blue-700"
+          >
+            Programs
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/resources"
+            className="block hover:text-blue-700"
+          >
+            Resources
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/staff"
+            className="block hover:text-blue-700"
+          >
+            Staff
+          </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            to="/contact"
+            className="block hover:text-blue-700"
+          >
+            Contact
+          </Link>
 
           <Link
             onClick={() => setMenuOpen(false)}
@@ -72,14 +143,15 @@ export default function Navbar() {
           >
             Admissions
           </Link>
+          <Link
+            onClick={() => setMenuOpen(false)}
+            href="https://www.paypal.com/"
+            className="block bg-red-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-red-800 transition text-center"
+          >
+            Pay Tuition
+          </Link>
         </div>
       )}
     </nav>
   );
 }
-
-
-
-
-
-
