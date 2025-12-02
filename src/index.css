@@ -22,6 +22,30 @@ code {
   animation: marquee 12s linear infinite;
 }
 
+@keyframes leo-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.leo-bounce {
+  animation: leo-bounce 2.4s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+
 
 @tailwind base;
 @tailwind components;

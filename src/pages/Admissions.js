@@ -112,7 +112,7 @@ export default function Admissions() {
             <p className="text-lg text-gray-700">
               Phone: <span className="font-semibold text-blue-700">(786) 582-5599</span>
             </p> 
-            <h3 className="text-1xl font-bold text-red-900 text-center"> We proudly accept a variety of scholarships and tuition assistance programs!</h3>
+            <h3 className="text-1xl font-bold text-red-900 text-center"> We proudly accept AAA & Step Up scholarships!</h3>
           </section>
 
           {/* TOUR CTA */}

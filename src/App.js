@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Staff from "./pages/Staff";
 import Community from "./pages/Community";
 import ThankYou from "./pages/ThankYou";
+import Tuition from "./pages/Tuition.js";
 
 export default function App() {
   return (
@@ -53,6 +54,7 @@ export default function App() {
             <Route path="/community" element={<Community />} />
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/tuition" element={<Tuition />} />
 
           </Routes>
         </main>

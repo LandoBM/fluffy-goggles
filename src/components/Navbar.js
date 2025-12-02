@@ -55,7 +55,7 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
-          
+
 
           {/* SPECIAL ADMISSIONS BUTTON */}
           <li>
@@ -70,7 +70,7 @@ export default function Navbar() {
           {/* SPECIAL PAY TUITION BUTTON */}
           <li>
             <a
-              href="https://www.paypal.com/"
+              href="/Tuition"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-green-800 transition"
@@ -148,7 +148,7 @@ export default function Navbar() {
           </Link>
           <Link
             onClick={() => setMenuOpen(false)}
-            href="https://www.paypal.me/cicilykeith"
+            href="/Tuition"
             className="block bg-red-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-red-800 transition text-center"
           >
             Pay Tuition

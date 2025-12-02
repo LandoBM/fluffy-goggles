@@ -82,7 +82,7 @@ export default function Staff() {
             >
               <img
                 src={staff.img}
-                alt={staff.name}
+                //alt={staff.name}
                 className="h-32 w-32 object-cover rounded-full border-4 border-blue-300 shadow-md mb-4"
               />
               <h3 className="text-xl font-bold text-blue-900">{staff.name}</h3>
