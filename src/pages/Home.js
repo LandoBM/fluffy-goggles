@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
-import KidsStudying from "../assets/images/kidStudy.jpg";
-import EarlyChildhood from "../assets/images/kidCarpet.jpg";
+import KidsStudying from "../assets/images/IMG_2457.JPG";
+import EarlyChildhood from "../assets/images/IMG_2458.JPG";
 import ElementarySchool from "../assets/images/fieldTrip3.jpg";
 import AfterSchool from "../assets/images/fieldTrip.jpg";
-import FieldTrip from "../assets/images/fieldTrip4.jpg";
+import FieldTrip from "../assets/images/IMG_2468.JPG";
 import Mascot from "../assets/images/mascot.png";
 
 export default function Home() {
@@ -30,6 +30,18 @@ export default function Home() {
             </p>
           </div>
         </section>
+{/* ENROLLMENT BANNER WITH SCROLLING TEXT */}
+<div className="w-full bg-yellow-400 overflow-hidden whitespace-nowrap">
+  <p className=" py-2 text-blue-900 font-semibold text-center tracking-wide">
+    📣 We are accepting enrollment applications for the 2025-26/ 2026-27 school year! 
+    <a href="/admissions"
+      className="underline font-bold ml-2">
+    Apply today 
+    </a> to secure your child's spot! 📚✨
+  </p>
+</div>
+
+
 
         {/* COMMUNITY STATEMENT */}
         <section className="max-w-5xl mx-auto text-center py-8 px-4">

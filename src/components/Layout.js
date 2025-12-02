@@ -4,6 +4,7 @@ import Footer from "./Footer";
 export default function Layout({ children }) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+      
       <Navbar />
       {/* Header */}
       {/* <header className="bg-blue-800 text-white py-4 shadow">

@@ -6,6 +6,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+    
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* LEFT: Logo + School Name */}
@@ -20,6 +21,7 @@ export default function Navbar() {
             </span>
           </div>
         </div>
+        
 
         {/* DESKTOP MENU */}
         <ul className="hidden md:flex gap-8 text-gray-700 font-semibold items-center">
@@ -53,6 +55,7 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+          
 
           {/* SPECIAL ADMISSIONS BUTTON */}
           <li>
@@ -145,7 +148,7 @@ export default function Navbar() {
           </Link>
           <Link
             onClick={() => setMenuOpen(false)}
-            href="https://www.paypal.com/"
+            href="https://www.paypal.me/cicilykeith"
             className="block bg-red-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-red-800 transition text-center"
           >
             Pay Tuition

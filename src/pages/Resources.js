@@ -8,10 +8,10 @@ import SCLAConductPDF from "../assets/pdfs/SCLA_Code_of_Conduct.pdf";
 
 // === EVENTS YOU CAN EDIT ===
 const events = [
-  { date: "2025-11-12", title: "Field Trip: Zoo", type: "event", type: "important" },
-  { date: "2025-11-15", title: "Parent/Teacher Conferences", type: "important" },
-  { date: "2025-11-22", title: "No School – Teacher Workday", type: "noschool", type: "important" },
-  { date: "2025-11-05", title: "Spring Showcase", type: "important" },
+  //{ date: "2025-12-12", title: "Field Trip: Zoo", type: "event", type: "important" },
+  { date: "2025-12-15", title: "Holiday Program", type: "important" },
+  { date: "2025-12-22", title: "No School Week – Holiday Break", type: "noschool", type: "important" },
+  //{ date: "2025-12-05", title: "Spring Showcase", type: "important" },
 ];
 
 // Color styles for different event types

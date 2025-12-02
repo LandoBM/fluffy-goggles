@@ -13,7 +13,7 @@ export default function Contact() {
     const formData = new FormData(form);
 
     // Send to Formspree via AJAX
-    const response = await fetch("https://formspree.io/f/xldvjjzo", {
+    const response = await fetch("https://formspree.io/f/xjkngeby", {
       method: "POST",
       body: formData,
       headers: { Accept: "application/json" },
@@ -74,7 +74,7 @@ export default function Contact() {
                 <span className="font-semibold text-blue-900">
                   Office Hours:
                 </span>{" "}
-                Mon–Fri, 7:30 AM – 4:30 PM
+                Mon–Fri, 7:30 AM – 3:30 PM
               </p>
             </div>
           </div>

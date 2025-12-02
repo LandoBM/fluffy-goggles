@@ -1,8 +1,8 @@
 import Layout from "../components/Layout";
 import MaleStudent from "../assets/images/maleStudent.jpg";
-import CloseKid from "../assets/images/closeUpKid.jpg";
+import CloseKid from "../assets/images/IMG_2458.JPG";
 import Mascot from "../assets/images/mascot.png"; 
-import kidStudying from "../assets/images/kidStudy.jpg";
+import kidStudying from "../assets/images/IMG_2457.JPG";
 
 export default function Admissions() {
   return (
@@ -88,11 +88,14 @@ export default function Admissions() {
                 alt="Kids doing art"
               />
             </div>
+             <h2 className="text-3xl font-bold text-green-900 mb-6 text-center">
+              *We accept applications year-round based on availability.
+            </h2>
           </section>
 
           {/* TUITION */}
           <section className="bg-blue-100 rounded-3xl shadow-lg p-10 mt-12 border border-blue-200">
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">
+            <h2 className="text-3xl font-bold text-blue-900 mb-4 text-center">
               Tuition & Fees
             </h2>
 
@@ -108,7 +111,8 @@ export default function Admissions() {
             </p>
             <p className="text-lg text-gray-700">
               Phone: <span className="font-semibold text-blue-700">(786) 582-5599</span>
-            </p>
+            </p> 
+            <h3 className="text-1xl font-bold text-red-900 text-center"> We proudly accept a variety of scholarships and tuition assistance programs!</h3>
           </section>
 
           {/* TOUR CTA */}

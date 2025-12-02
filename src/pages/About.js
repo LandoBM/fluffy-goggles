@@ -1,7 +1,8 @@
 import Layout from "../components/Layout";
 import FieldTrip from "../assets/images/fieldTrip.jpg";
 import KidsStudying from "../assets/images/kidStudy.jpg";
-import Classroom from "../assets/images/fieldTrip3.jpg"; // add any image you want
+import Classroom from "../assets/images/fieldTrip3.jpg"; 
+import Principal from "../assets/images/IMG_2459 2.jpg";
 
 export default function About() {
   return (
@@ -36,9 +37,9 @@ export default function About() {
         {/* PRINCIPAL WELCOME */}
         <section className="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <img
-            src={Classroom}
+            src={Principal}
             alt="Teacher and students"
-            className="rounded-2xl shadow-xl object-cover h-80 w-full border border-gray-200"
+            className="rounded-2xl shadow-xl object-cover h-90 w-full border border-gray-100"
           />
 
           <div className="space-y-4">
