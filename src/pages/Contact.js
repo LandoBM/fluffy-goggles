@@ -180,7 +180,7 @@ export default function Contact() {
                 href="mailto:admissions@summercrestacademy.com"
                 className="underline"
               >
-                admissions@summercrestacademy.com
+                summercrestlearningacademy@gmail.com
               </a>
               .
             </p>
