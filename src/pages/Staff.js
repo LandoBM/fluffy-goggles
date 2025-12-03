@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Placeholder from "../assets/images/kidStudy.jpg"; 
 import Principal from "../assets/images/IMG_2459 2.jpg"
 import firstGrade from "../assets/images/nesha.JPG";
+import behavioralSupport from "../assets/images/toneka.JPEG";
 
 export default function Staff() {
 
@@ -13,6 +14,12 @@ export default function Staff() {
   };
 
   const teachers = [
+        {
+      name: "Toneka Finch",
+      role: "Student Behavioral Support Consultant",
+      img: behavioralSupport,
+      desc: "Specializes in students developing positive habits,social-emotional learning, and thrive academically in a supportive school environment.",
+    },
     {
       name: "Christiane Moncoeur",
       role: "Pre-K & Kindergarten Teacher",
