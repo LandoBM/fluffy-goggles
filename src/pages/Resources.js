@@ -265,7 +265,7 @@ export default function Resources() {
       <div className="flex flex-col sm:flex-row gap-3">
 
         <a
-          href="/contact"
+          href="/transportation"
           className="bg-blue-700 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-800 transition text-sm font-semibold text-center"
         >
           Request Transportation
@@ -282,9 +282,6 @@ export default function Resources() {
     </div>
   </div>
 </section>
-
-
-
 
         {/* CTA */}
         <section className="max-w-4xl mx-auto text-center px-4 py-16">

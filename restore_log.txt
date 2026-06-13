@@ -1,0 +1,1327 @@
+SET
+SET
+SET
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:16: ERROR:  role "anon" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:17: ERROR:  "anon" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:18: ERROR:  role "authenticated" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:19: ERROR:  "authenticated" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:20: ERROR:  role "authenticator" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:21: ERROR:  "authenticator" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:22: ERROR:  role "dashboard_user" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:23: ERROR:  "dashboard_user" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:24: ERROR:  role "pgbouncer" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:25: ERROR:  "pgbouncer" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:26: ERROR:  role "postgres" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:27: ERROR:  permission denied to alter role
+DETAIL:  Only superusers can alter privileged roles.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:28: ERROR:  role "service_role" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:29: ERROR:  "service_role" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:30: ERROR:  role "supabase_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:31: ERROR:  "supabase_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:32: ERROR:  role "supabase_auth_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:33: ERROR:  "supabase_auth_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:34: ERROR:  role "supabase_etl_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:35: ERROR:  "supabase_etl_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:36: ERROR:  role "supabase_read_only_user" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:37: ERROR:  "supabase_read_only_user" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:38: ERROR:  role "supabase_realtime_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:39: ERROR:  "supabase_realtime_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:40: ERROR:  role "supabase_replication_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:41: ERROR:  "supabase_replication_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:42: ERROR:  role "supabase_storage_admin" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:43: ERROR:  "supabase_storage_admin" is a reserved role, only superusers can modify it
+ALTER ROLE
+ALTER ROLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:65: ERROR:  permission denied to set parameter "session_preload_libraries"
+ALTER ROLE
+ALTER ROLE
+ALTER ROLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:79: ERROR:  "supabase_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:80: ERROR:  "supabase_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:86: ERROR:  "supabase_auth_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:87: ERROR:  "supabase_auth_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:88: ERROR:  "supabase_auth_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:94: ERROR:  "supabase_read_only_user" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:100: ERROR:  "supabase_storage_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:101: ERROR:  "supabase_storage_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:108: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:109: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:110: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:111: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:112: ERROR:  "authenticator" role memberships are reserved, only superusers can grant them
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:113: ERROR:  "authenticator" role memberships are reserved, only superusers can grant them
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:114: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:115: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:116: ERROR:  "supabase_etl_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:117: ERROR:  "supabase_read_only_user" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:118: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:119: ERROR:  "supabase_etl_admin" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:120: ERROR:  "supabase_read_only_user" is a reserved role, only superusers can modify it
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:121: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:122: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:123: ERROR:  permission denied to grant privileges as role "supabase_admin"
+DETAIL:  Only roles with privileges of role "supabase_admin" may grant privileges as this role.
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:124: ERROR:  "supabase_realtime_admin" role memberships are reserved, only superusers can grant them
+You are now connected to database "template1" as user "postgres.exiczidjjvmgwntomeip".
+SET
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
+
+SET
+SET
+SET
+SET
+You are now connected to database "postgres" as user "postgres.exiczidjjvmgwntomeip".
+SET
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
+
+SET
+SET
+SET
+SET
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:201: ERROR:  schema "auth" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:210: ERROR:  schema "extensions" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:219: ERROR:  schema "graphql" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:228: ERROR:  schema "graphql_public" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:237: ERROR:  schema "pgbouncer" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:246: ERROR:  schema "realtime" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:255: ERROR:  schema "storage" already exists
+ALTER SCHEMA
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:264: ERROR:  schema "vault" already exists
+ALTER SCHEMA
+CREATE EXTENSION
+COMMENT
+CREATE EXTENSION
+COMMENT
+CREATE EXTENSION
+COMMENT
+CREATE EXTENSION
+COMMENT
+CREATE EXTENSION
+COMMENT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:347: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:359: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:371: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:384: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:398: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:410: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:422: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:433: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:449: ERROR:  permission denied for schema auth
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:464: ERROR:  type "action" already exists
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:481: ERROR:  type "equality_op" already exists
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:494: ERROR:  type "user_defined_filter" already exists
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:510: ERROR:  type "wal_column" already exists
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:524: ERROR:  type "wal_rls" already exists
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:537: ERROR:  permission denied for schema storage
+ALTER TYPE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:554: ERROR:  permission denied for schema auth
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:563: ERROR:  must be owner of function auth.email
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:578: ERROR:  permission denied for schema auth
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:595: ERROR:  permission denied for schema auth
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:604: ERROR:  must be owner of function auth.role
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:619: ERROR:  permission denied for schema auth
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:628: ERROR:  must be owner of function auth.uid
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:665: ERROR:  function "grant_pg_cron_access" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:674: ERROR:  must be owner of function extensions.grant_pg_cron_access
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:732: ERROR:  function "grant_pg_graphql_access" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:741: ERROR:  must be owner of function extensions.grant_pg_graphql_access
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:792: ERROR:  function "grant_pg_net_access" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:801: ERROR:  must be owner of function extensions.grant_pg_net_access
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:834: ERROR:  function "pgrst_ddl_watch" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:867: ERROR:  function "pgrst_drop_watch" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:926: ERROR:  function "set_graphql_placeholder" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:935: ERROR:  must be owner of function extensions.set_graphql_placeholder
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:959: ERROR:  permission denied for schema pgbouncer
+ALTER FUNCTION
+CREATE FUNCTION
+ALTER FUNCTION
+CREATE FUNCTION
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1304: ERROR:  function "apply_rls" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1335: ERROR:  function "broadcast_changes" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1370: ERROR:  function "build_prepared_statement_sql" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1388: ERROR:  function "cast" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1429: ERROR:  function "check_equality_op" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1467: ERROR:  function "is_visible_through_filters" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1535: ERROR:  permission denied to set parameter "log_min_messages"
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1575: ERROR:  function "quote_wal2json" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1614: ERROR:  function "send" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1690: ERROR:  function "subscription_check_filters" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1701: ERROR:  function "to_regrole" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1714: ERROR:  function "topic" already exists with same argument types
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1736: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1739: ERROR:  function storage.add_prefixes(text, text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1755: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1822: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1825: ERROR:  function storage.delete_leaf_prefixes(text[], text[]) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1860: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1863: ERROR:  function storage.delete_prefix(text, text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1883: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1886: ERROR:  function storage.delete_prefix_hierarchy_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1901: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1921: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1939: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1959: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1972: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1975: ERROR:  function storage.get_level(text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1990: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:1993: ERROR:  function storage.get_prefix(text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2019: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2022: ERROR:  function storage.get_prefixes(text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2037: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2085: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2131: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2134: ERROR:  function storage.list_objects_with_delimiter(text, text, text, integer, text, text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2157: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2160: ERROR:  function storage.lock_top_prefixes(text[], text[]) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2190: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2193: ERROR:  function storage.objects_delete_cleanup() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2208: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2211: ERROR:  function storage.objects_insert_prefix_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2302: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2305: ERROR:  function storage.objects_update_cleanup() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2322: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2325: ERROR:  function storage.objects_update_level_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2366: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2369: ERROR:  function storage.objects_update_prefix_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2381: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2414: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2417: ERROR:  function storage.prefixes_delete_cleanup() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2430: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2433: ERROR:  function storage.prefixes_insert_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2456: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2527: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2530: ERROR:  function storage.search_legacy_v1(text, text, integer, integer, integer, text, text, text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2597: ERROR:  permission denied for schema storage
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2600: ERROR:  function storage.search_v1_optimised(text, text, integer, integer, integer, text, text, text) does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2695: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2711: ERROR:  permission denied for schema storage
+ALTER FUNCTION
+SET
+SET
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2730: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.audit_log_entries (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2733: ERROR:  must be owner of table audit_log_entries
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2739: ERROR:  must be owner of table audit_log_entries
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2759: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.flow_state (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2762: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2768: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2785: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.identities (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2788: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2794: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2801: ERROR:  must be owner of relation identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2814: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.instances (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2817: ERROR:  must be owner of table instances
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2823: ERROR:  must be owner of table instances
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2836: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.mfa_amr_claims (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2839: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2845: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2860: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.mfa_challenges (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2863: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2869: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2890: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.mfa_factors (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2893: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2899: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2906: ERROR:  must be owner of relation mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2939: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.oauth_authorizations (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2942: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2953: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.oauth_client_states (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2956: ERROR:  must be owner of table oauth_client_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2962: ERROR:  must be owner of table oauth_client_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2985: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.oauth_clients (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:2988: ERROR:  must be owner of table oauth_clients
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3004: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.oauth_consents (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3007: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3022: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.one_time_tokens (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3025: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3041: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.refresh_tokens (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3044: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3050: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3062: ERROR:  permission denied for schema auth
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3065: ERROR:  must be owner of sequence refresh_tokens_id_seq
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3071: ERROR:  must be owner of sequence refresh_tokens_id_seq
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3091: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.saml_providers (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3094: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3100: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3117: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.saml_relay_states (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3120: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3126: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3135: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.schema_migrations (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3138: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3144: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3168: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.sessions (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3171: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3177: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3184: ERROR:  must be owner of relation sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3191: ERROR:  must be owner of relation sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3198: ERROR:  must be owner of relation sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3212: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.sso_domains (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3215: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3221: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3235: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.sso_providers (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3238: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3244: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3251: ERROR:  must be owner of relation sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3295: ERROR:  permission denied for schema auth
+LINE 1: CREATE TABLE auth.users (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3298: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3304: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3311: ERROR:  must be owner of relation users
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3394: ERROR:  relation "messages" already exists
+ALTER TABLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3406: ERROR:  relation "schema_migrations" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3409: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3423: ERROR:  relation "subscription" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3426: ERROR:  must be owner of table subscription
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3439: ERROR:  must be owner of table subscription
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3458: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.buckets (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3461: ERROR:  must be owner of table buckets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3467: ERROR:  must be owner of relation buckets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3482: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.buckets_analytics (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3485: ERROR:  must be owner of table buckets_analytics
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3496: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.buckets_vectors (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3499: ERROR:  must be owner of table buckets_vectors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3510: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.migrations (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3513: ERROR:  must be owner of table migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3533: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.objects (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3536: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3542: ERROR:  must be owner of relation objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3555: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.prefixes (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3558: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3574: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.s3_multipart_uploads (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3577: ERROR:  must be owner of table s3_multipart_uploads
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3594: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.s3_multipart_uploads_parts (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3597: ERROR:  must be owner of table s3_multipart_uploads_parts
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3613: ERROR:  permission denied for schema storage
+LINE 1: CREATE TABLE storage.vector_indexes (
+                     ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3616: ERROR:  must be owner of table vector_indexes
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3622: ERROR:  must be owner of table refresh_tokens
+COPY 0
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3647: ERROR:  insert or update on table "identities" violates foreign key constraint "identities_user_id_fkey"
+DETAIL:  Key (user_id)=(259a84ee-8343-4311-9aa4-b4ca46ab617c) is not present in table "users".
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3667: ERROR:  insert or update on table "mfa_amr_claims" violates foreign key constraint "mfa_amr_claims_session_id_fkey"
+DETAIL:  Key (session_id)=(efbd36aa-46d6-4cbc-bdd5-0fb7b7ec5567) is not present in table "sessions".
+COPY 0
+COPY 0
+COPY 0
+COPY 0
+COPY 0
+COPY 0
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3777: ERROR:  insert or update on table "refresh_tokens" violates foreign key constraint "refresh_tokens_session_id_fkey"
+DETAIL:  Key (session_id)=(a36e326d-b64c-4426-b345-817863e7117a) is not present in table "sessions".
+COPY 0
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3800: ERROR:  permission denied for table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3873: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3880: ERROR:  syntax error at or near "20171026211738"
+LINE 1: 20171026211738
+        ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3881: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3882: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3883: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3884: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3885: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3892: ERROR:  syntax error at or near "efbd36aa"
+LINE 1: efbd36aa-46d6-4cbc-bdd5-0fb7b7ec5567 259a84ee-8343-4311-9aa4...
+        ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:3893: error: backslash commands are restricted; only \unrestrict is allowed
+COPY 0
+COPY 1
+COPY 1
+COPY 1
+COPY 1
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4018: ERROR:  duplicate key value violates unique constraint "schema_migrations_pkey"
+DETAIL:  Key (version)=(20211116024918) already exists.
+CONTEXT:  COPY schema_migrations, line 1
+COPY 0
+COPY 0
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4049: ERROR:  permission denied for table buckets_vectors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4050: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4057: ERROR:  permission denied for table migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4107: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4114: ERROR:  syntax error at or near "0"
+LINE 1: 0 create-migrations-table e18db593bcde2aca2a408c4d1100f6abba...
+        ^
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4115: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4122: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4123: error: backslash commands are restricted; only \unrestrict is allowed
+COPY 0
+COPY 0
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4146: ERROR:  permission denied for table vector_indexes
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4147: error: backslash commands are restricted; only \unrestrict is allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4154: ERROR:  permission denied for table secrets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4155: error: backslash commands are restricted; only \unrestrict is allowed
+ setval 
+--------
+     60
+(1 row)
+
+ setval 
+--------
+      1
+(1 row)
+
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4177: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4185: ERROR:  must be owner of table audit_log_entries
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4193: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4201: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4209: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4217: ERROR:  must be owner of table instances
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4225: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4233: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4241: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4249: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4257: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4265: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4273: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4281: ERROR:  must be owner of table oauth_client_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4289: ERROR:  must be owner of table oauth_clients
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4297: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4305: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4313: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4321: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4329: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4337: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4345: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4353: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4361: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4369: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4377: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4385: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4393: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4401: ERROR:  must be owner of table users
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4449: ERROR:  multiple primary keys for table "messages" are not allowed
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4457: ERROR:  must be owner of table subscription
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4465: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4473: ERROR:  must be owner of table buckets_analytics
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4481: ERROR:  must be owner of table buckets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4489: ERROR:  must be owner of table buckets_vectors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4497: ERROR:  must be owner of table migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4505: ERROR:  must be owner of table migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4513: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4521: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4529: ERROR:  must be owner of table s3_multipart_uploads_parts
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4537: ERROR:  must be owner of table s3_multipart_uploads
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4545: ERROR:  must be owner of table vector_indexes
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4552: ERROR:  must be owner of table audit_log_entries
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4559: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4566: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4573: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4580: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4587: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4594: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4601: ERROR:  must be owner of index identities_email_idx
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4608: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4615: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4622: ERROR:  must be owner of table oauth_client_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4629: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4636: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4643: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4650: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4657: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4664: ERROR:  must be owner of table oauth_clients
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4671: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4678: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4685: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4692: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4699: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4706: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4713: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4720: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4727: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4734: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4741: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4748: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4755: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4762: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4769: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4776: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4783: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4790: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4797: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4804: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4811: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4818: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4825: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4832: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4839: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4846: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4853: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4860: ERROR:  must be owner of index users_email_partial_key
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4867: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4874: ERROR:  must be owner of table users
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4881: ERROR:  must be owner of table users
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4916: ERROR:  must be owner of table subscription
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4923: ERROR:  relation "messages_inserted_at_topic_index" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4930: ERROR:  must be owner of table subscription
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4937: ERROR:  must be owner of table buckets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4944: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4951: ERROR:  must be owner of table buckets_analytics
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4958: ERROR:  must be owner of table s3_multipart_uploads
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4965: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4972: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4979: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4986: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:4993: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5000: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5007: ERROR:  must be owner of table vector_indexes
+CREATE TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5021: ERROR:  trigger "tr_check_filters" for relation "subscription" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5028: ERROR:  trigger "enforce_bucket_name_length_trigger" for relation "buckets" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5035: ERROR:  function storage.delete_prefix_hierarchy_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5042: ERROR:  function storage.objects_insert_prefix_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5049: ERROR:  function storage.objects_update_prefix_trigger() does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5056: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5063: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5070: ERROR:  trigger "update_objects_updated_at" for relation "objects" already exists
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5078: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5086: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5094: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5102: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5110: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5118: ERROR:  must be owner of table oauth_authorizations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5126: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5134: ERROR:  must be owner of table oauth_consents
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5142: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5150: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5158: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5166: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5174: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5182: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5190: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5198: ERROR:  must be owner of table sso_domains
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5246: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5254: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5262: ERROR:  must be owner of table s3_multipart_uploads
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5270: ERROR:  must be owner of table s3_multipart_uploads_parts
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5278: ERROR:  must be owner of table s3_multipart_uploads_parts
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5286: ERROR:  must be owner of table vector_indexes
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5293: ERROR:  must be owner of table audit_log_entries
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5299: ERROR:  must be owner of table flow_state
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5305: ERROR:  must be owner of table identities
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5311: ERROR:  must be owner of table instances
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5317: ERROR:  must be owner of table mfa_amr_claims
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5323: ERROR:  must be owner of table mfa_challenges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5329: ERROR:  must be owner of table mfa_factors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5335: ERROR:  must be owner of table one_time_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5341: ERROR:  must be owner of table refresh_tokens
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5347: ERROR:  must be owner of table saml_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5353: ERROR:  must be owner of table saml_relay_states
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5359: ERROR:  must be owner of table schema_migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5365: ERROR:  must be owner of table sessions
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5371: ERROR:  must be owner of table sso_domains
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5377: ERROR:  must be owner of table sso_providers
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5383: ERROR:  must be owner of table users
+ALTER TABLE
+CREATE POLICY
+ALTER TABLE
+CREATE POLICY
+ALTER TABLE
+CREATE POLICY
+ALTER TABLE
+CREATE POLICY
+ALTER TABLE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5453: ERROR:  must be owner of table buckets
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5459: ERROR:  must be owner of table buckets_analytics
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5465: ERROR:  must be owner of table buckets_vectors
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5471: ERROR:  must be owner of table migrations
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5477: ERROR:  must be owner of table objects
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5483: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5489: ERROR:  must be owner of table s3_multipart_uploads
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5495: ERROR:  must be owner of table s3_multipart_uploads_parts
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5501: ERROR:  must be owner of table vector_indexes
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5507: ERROR:  publication "supabase_realtime" already exists
+ALTER PUBLICATION
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5516: WARNING:  no privileges were granted for "auth"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5517: WARNING:  no privileges were granted for "auth"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5518: WARNING:  no privileges were granted for "auth"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5519: WARNING:  no privileges were granted for "auth"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5520: WARNING:  no privileges were granted for "auth"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5521: WARNING:  no privileges were granted for "auth"
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5548: WARNING:  no privileges were granted for "realtime"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5549: WARNING:  no privileges were granted for "realtime"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5550: WARNING:  no privileges were granted for "realtime"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5551: WARNING:  no privileges were granted for "realtime"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5552: WARNING:  no privileges were granted for "realtime"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5559: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5571: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5579: WARNING:  no privileges were granted for "email"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5586: WARNING:  no privileges were granted for "jwt"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5587: WARNING:  no privileges were granted for "jwt"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5594: WARNING:  no privileges were granted for "role"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5601: WARNING:  no privileges were granted for "uid"
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5734: WARNING:  no privileges could be revoked for "grant_pg_cron_access"
+REVOKE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5735: WARNING:  no privileges were granted for "grant_pg_cron_access"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5736: WARNING:  no privileges were granted for "grant_pg_cron_access"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5743: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5750: WARNING:  no privileges could be revoked for "grant_pg_net_access"
+REVOKE
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5751: WARNING:  no privileges were granted for "grant_pg_net_access"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5752: WARNING:  no privileges were granted for "grant_pg_net_access"
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5984: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5991: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:5998: ERROR:  grant options cannot be granted back to your own grantor
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6095: WARNING:  no privileges were granted for "graphql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6096: WARNING:  no privileges were granted for "graphql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6097: WARNING:  no privileges were granted for "graphql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6098: WARNING:  no privileges were granted for "graphql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6105: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6112: ERROR:  permission denied for function get_auth
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6113: ERROR:  permission denied for function get_auth
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6138: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6139: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6140: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6141: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6142: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6143: WARNING:  no privileges were granted for "apply_rls"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6150: WARNING:  no privileges were granted for "broadcast_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6151: WARNING:  no privileges were granted for "broadcast_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6158: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6159: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6160: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6161: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6162: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6163: WARNING:  no privileges were granted for "build_prepared_statement_sql"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6170: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6171: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6172: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6173: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6174: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6175: WARNING:  no privileges were granted for "cast"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6182: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6183: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6184: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6185: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6186: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6187: WARNING:  no privileges were granted for "check_equality_op"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6194: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6195: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6196: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6197: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6198: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6199: WARNING:  no privileges were granted for "is_visible_through_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6206: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6207: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6208: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6209: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6210: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6211: WARNING:  no privileges were granted for "list_changes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6218: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6219: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6220: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6221: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6222: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6223: WARNING:  no privileges were granted for "quote_wal2json"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6230: WARNING:  no privileges were granted for "send"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6231: WARNING:  no privileges were granted for "send"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6238: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6239: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6240: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6241: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6242: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6243: WARNING:  no privileges were granted for "subscription_check_filters"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6250: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6251: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6252: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6253: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6254: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6255: WARNING:  no privileges were granted for "to_regrole"
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6270: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6278: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6286: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6295: WARNING:  no privileges were granted for "audit_log_entries"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6296: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6303: WARNING:  no privileges were granted for "flow_state"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6304: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6312: WARNING:  no privileges were granted for "identities"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6313: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6322: WARNING:  no privileges were granted for "instances"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6323: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6330: WARNING:  no privileges were granted for "mfa_amr_claims"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6331: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6339: WARNING:  no privileges were granted for "mfa_challenges"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6340: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6348: WARNING:  no privileges were granted for "mfa_factors"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6349: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6357: WARNING:  no privileges were granted for "oauth_authorizations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6358: WARNING:  no privileges were granted for "oauth_authorizations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6365: WARNING:  no privileges were granted for "oauth_client_states"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6366: WARNING:  no privileges were granted for "oauth_client_states"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6373: WARNING:  no privileges were granted for "oauth_clients"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6374: WARNING:  no privileges were granted for "oauth_clients"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6381: WARNING:  no privileges were granted for "oauth_consents"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6382: WARNING:  no privileges were granted for "oauth_consents"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6389: WARNING:  no privileges were granted for "one_time_tokens"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6390: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6399: WARNING:  no privileges were granted for "refresh_tokens"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6400: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6407: WARNING:  no privileges were granted for "refresh_tokens_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6408: WARNING:  no privileges were granted for "refresh_tokens_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6415: WARNING:  no privileges were granted for "saml_providers"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6416: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6424: WARNING:  no privileges were granted for "saml_relay_states"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6425: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6433: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6440: WARNING:  no privileges were granted for "sessions"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6441: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6449: WARNING:  no privileges were granted for "sso_domains"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6450: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6458: WARNING:  no privileges were granted for "sso_providers"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6459: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6468: WARNING:  no privileges were granted for "users"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6469: ERROR:  grant options cannot be granted back to your own grantor
+REVOKE
+GRANT
+GRANT
+REVOKE
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6541: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6542: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6543: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6544: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6545: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6546: WARNING:  no privileges were granted for "schema_migrations"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6553: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6554: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6555: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6556: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6557: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6558: WARNING:  no privileges were granted for "subscription"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6565: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6566: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6567: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6568: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6569: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6570: WARNING:  no privileges were granted for "subscription_id_seq"
+GRANT
+REVOKE
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6582: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6589: WARNING:  no privileges were granted for "buckets_analytics"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6590: WARNING:  no privileges were granted for "buckets_analytics"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6591: WARNING:  no privileges were granted for "buckets_analytics"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6598: WARNING:  no privileges were granted for "buckets_vectors"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6599: WARNING:  no privileges were granted for "buckets_vectors"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6600: WARNING:  no privileges were granted for "buckets_vectors"
+GRANT
+REVOKE
+GRANT
+GRANT
+GRANT
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6612: ERROR:  grant options cannot be granted back to your own grantor
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6619: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6620: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6621: ERROR:  relation "storage.prefixes" does not exist
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6628: WARNING:  no privileges were granted for "s3_multipart_uploads"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6629: WARNING:  no privileges were granted for "s3_multipart_uploads"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6630: WARNING:  no privileges were granted for "s3_multipart_uploads"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6637: WARNING:  no privileges were granted for "s3_multipart_uploads_parts"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6638: WARNING:  no privileges were granted for "s3_multipart_uploads_parts"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6639: WARNING:  no privileges were granted for "s3_multipart_uploads_parts"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6646: WARNING:  no privileges were granted for "vector_indexes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6647: WARNING:  no privileges were granted for "vector_indexes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6648: WARNING:  no privileges were granted for "vector_indexes"
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6655: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6663: ERROR:  grant options cannot be granted back to your own grantor
+GRANT
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6671: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6672: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6679: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6680: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6687: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6688: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6695: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6702: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6709: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6716: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6717: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6718: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6719: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6726: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6727: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6728: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6729: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6736: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6737: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6738: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6739: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6746: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6747: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6748: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6749: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6756: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6757: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6758: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6759: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6766: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6767: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6768: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6769: ERROR:  permission denied to change default privileges
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6786: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6787: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6788: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6789: ERROR:  permission denied to change default privileges
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6806: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6807: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6808: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6809: ERROR:  permission denied to change default privileges
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6826: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6827: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6828: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6829: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6836: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6837: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6844: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6845: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6852: ERROR:  permission denied to change default privileges
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6853: ERROR:  permission denied to change default privileges
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+ALTER DEFAULT PRIVILEGES
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6892: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.set_graphql_placeholder" is owned by a superuser
+ALTER EVENT TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6903: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.grant_pg_cron_access" is owned by a superuser
+ALTER EVENT TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6914: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.grant_pg_graphql_access" is owned by a superuser
+ALTER EVENT TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6925: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.grant_pg_net_access" is owned by a superuser
+ALTER EVENT TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6935: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.pgrst_ddl_watch" is owned by a superuser
+ALTER EVENT TRIGGER
+psql:/Users/landonmurray/Downloads/db_cluster-25-12-2025@04-03-43.backup:6945: ERROR:  Non-superuser owned event trigger must execute a non-superuser owned function
+DETAIL:  The current user "postgres" is not a superuser and the function "extensions.pgrst_drop_watch" is owned by a superuser
+ALTER EVENT TRIGGER

@@ -13,6 +13,13 @@ import Staff from "./pages/Staff";
 import Community from "./pages/Community";
 import ThankYou from "./pages/ThankYou";
 import Tuition from "./pages/Tuition.js";
+import Login from "./pages/Login";
+import Portal from "./pages/Portal";
+import ResetPassword from "./pages/ResetPassword";
+import Transportation from "./pages/Transportation.js";
+import Announcements from "./pages/Announcements.js";
+import AnnouncementsArchive from "./pages/AnnouncementsArchive.js";
+import AdminPortal from "./pages/AdminPortal.js";
 
 export default function App() {
   return (
@@ -22,30 +29,6 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/programs" element={<Programs />} />
-            {/* <Route
-              path="/programs/pre-k"
-              element={<Admissions grade="Pre-K" />}
-            />
-            <Route
-              path="/programs/first"
-              element={<GradePage grade="First Grade" />}
-            />
-            <Route
-              path="/programs/second"
-              element={<GradePage grade="Second Grade" />}
-            />
-            <Route
-              path="/programs/third"
-              element={<GradePage grade="Third Grade" />}
-            />
-            <Route
-              path="/programs/fourth"
-              element={<GradePage grade="Fourth Grade" />}
-            />
-            <Route
-              path="/programs/fifth"
-              element={<GradePage grade="Fifth Grade" />}
-            /> */}
             <Route path="/about" element={<About />} />
             <Route path="/location" element={<Location />} />
             <Route path="/resources" element={<Resources />} />
@@ -55,7 +38,14 @@ export default function App() {
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/thank-you" element={<ThankYou />} />
             <Route path="/tuition" element={<Tuition />} />
-
+            <Route path="/login" element={<Login />} />
+            <Route path="/portal" element={<Portal />} />
+            <Route path="/transportation" element={<Transportation />} />
+            <Route path="/announcements" element={<Announcements />} />
+            <Route path="/announcements/archive" element={<AnnouncementsArchive />} />
+            <Route path="/admin" element={<AdminPortal />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
+            
           </Routes>
         </main>
         <Footer />
