@@ -44,13 +44,19 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
       if (error) throw error;
 
       const user = data?.user;
 
       const { data: profile } = await supabase
-        .from("profiles").select("role").eq("id", user.id).maybeSingle();
+        .from("profiles")
+        .select("role")
+        .eq("id", user.id)
+        .maybeSingle();
 
       if (profile?.role === "admin") {
         navigate("/admin");
@@ -58,10 +64,15 @@ export default function Login() {
       }
 
       const { data: memberRow } = await supabase
-        .from("family_members").select("family_id").eq("user_id", user.id).maybeSingle();
+        .from("family_members")
+        .select("family_id")
+        .eq("user_id", user.id)
+        .maybeSingle();
 
       if (!memberRow?.family_id) {
-        setCreatedParentName(user.user_metadata?.parent_name || user.email || "Parent");
+        setCreatedParentName(
+          user.user_metadata?.parent_name || user.email || "Parent",
+        );
         setMode("signup");
         setSignupStep("welcome");
         setMsg("");
@@ -94,7 +105,10 @@ export default function Login() {
         "https://exiczidjjvmgwntomeip.supabase.co/functions/v1/signup-family",
         {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${process.env.REACT_APP_SUPABASE_ANON_KEY}`,
+          },
           body: JSON.stringify({
             email,
             password,
@@ -103,17 +117,18 @@ export default function Login() {
             phone: phone || null,
             students: studentRows,
           }),
-        }
+        },
       );
 
       const result = await res.json();
       if (result.error) throw new Error(result.error);
 
       // Auto login after account created
-      const { data: loginData, error: loginErr } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
+      const { data: loginData, error: loginErr } =
+        await supabase.auth.signInWithPassword({
+          email,
+          password,
+        });
 
       if (loginErr) {
         setMsg("Account created! Please log in.");
@@ -163,14 +178,22 @@ export default function Login() {
             style={{
               left: `${(index * 17) % 100}%`,
               top: `${(index * 23) % 70}%`,
-              backgroundColor: ["#1d4ed8", "#facc15", "#16a34a", "#dc2626"][index % 4],
+              backgroundColor: ["#1d4ed8", "#facc15", "#16a34a", "#dc2626"][
+                index % 4
+              ],
               animationDelay: `${index * 0.08}s`,
             }}
           />
         ))}
         <div className="relative max-w-xl w-full bg-white rounded-2xl border border-blue-100 shadow-lg p-8 text-center">
-          <img src={Leo} alt="Leo the Lion" className="h-36 w-auto mx-auto mb-5 leo-bounce" />
-          <h1 className="text-3xl font-bold text-blue-900">Hello {createdParentName}!</h1>
+          <img
+            src={Leo}
+            alt="Leo the Lion"
+            className="h-36 w-auto mx-auto mb-5 leo-bounce"
+          />
+          <h1 className="text-3xl font-bold text-blue-900">
+            Hello {createdParentName}!
+          </h1>
           <p className="text-gray-700 text-lg mt-3">
             Welcome to Summer Crest Learning Academy Parent Portal.
           </p>
@@ -193,9 +216,15 @@ export default function Login() {
         {/* Left: Leo */}
         <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
           <div className="flex items-center gap-4">
-            <img src={Leo} alt="Leo the Lion" className="w-20 h-20 rounded-xl object-cover" />
+            <img
+              src={Leo}
+              alt="Leo the Lion"
+              className="w-20 h-20 rounded-xl object-cover"
+            />
             <div>
-              <h1 className="text-3xl font-bold text-blue-900">Welcome Parents!</h1>
+              <h1 className="text-3xl font-bold text-blue-900">
+                Welcome Parents!
+              </h1>
               <p className="text-gray-600 mt-1">
                 Log in to view your balance, ledger, and tuition updates.
               </p>
@@ -203,7 +232,9 @@ export default function Login() {
           </div>
           <div className="mt-6 text-sm text-gray-600 bg-blue-50 border border-blue-100 rounded-xl p-4">
             <p className="font-medium text-blue-900">Leo says:</p>
-            <p className="mt-1">"We're glad you're here. Let's get you logged in."</p>
+            <p className="mt-1">
+              "We're glad you're here. Let's get you logged in."
+            </p>
           </div>
         </div>
 
@@ -215,40 +246,60 @@ export default function Login() {
             </h2>
             <button
               type="button"
-              onClick={() => { setMsg(""); resetSetupFlow(); setMode(mode === "login" ? "signup" : "login"); }}
+              onClick={() => {
+                setMsg("");
+                resetSetupFlow();
+                setMode(mode === "login" ? "signup" : "login");
+              }}
               className="text-sm font-medium text-blue-900 hover:underline"
             >
               {mode === "login" ? "Create account" : "Have an account?"}
             </button>
           </div>
 
-          <form onSubmit={mode === "login" ? handleLogin : handleSignup} className="space-y-4">
-
+          <form
+            onSubmit={mode === "login" ? handleLogin : handleSignup}
+            className="space-y-4"
+          >
             {/* Signup-only fields */}
             {mode === "signup" && (
               <>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700">Parent / Guardian Name</label>
+                  <label className="block text-sm font-medium text-gray-700">
+                    Parent / Guardian Name
+                  </label>
                   <input
                     className="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-                    type="text" name="name" autoComplete="name"
-                    value={parentName} onChange={(e) => setParentName(e.target.value)}
-                    placeholder="e.g. Jamie Williams" required
+                    type="text"
+                    name="name"
+                    autoComplete="name"
+                    value={parentName}
+                    onChange={(e) => setParentName(e.target.value)}
+                    placeholder="e.g. Jamie Williams"
+                    required
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700">Phone Number</label>
+                  <label className="block text-sm font-medium text-gray-700">
+                    Phone Number
+                  </label>
                   <input
                     className="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-                    type="tel" value={phone} onChange={(e) => setPhone(e.target.value)}
+                    type="tel"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                     placeholder="(555) 000-0000"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700">Family Name</label>
+                  <label className="block text-sm font-medium text-gray-700">
+                    Family Name
+                  </label>
                   <input
                     className="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-                    type="text" value={familyName} onChange={(e) => setFamilyName(e.target.value)}
+                    type="text"
+                    value={familyName}
+                    onChange={(e) => setFamilyName(e.target.value)}
                     placeholder="e.g. The Williams Family"
                   />
                 </div>
@@ -257,81 +308,123 @@ export default function Login() {
 
             {/* Email */}
             <div>
-              <label className="block text-sm font-medium text-gray-700">Email</label>
+              <label className="block text-sm font-medium text-gray-700">
+                Email
+              </label>
               <input
                 className="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
-                type="email" name="email" autoComplete="email"
-                value={email} onChange={(e) => setEmail(e.target.value)}
-                placeholder="parent@email.com" required
+                type="email"
+                name="email"
+                autoComplete="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="parent@email.com"
+                required
               />
             </div>
 
             {/* Password */}
             <div>
-              <label className="block text-sm font-medium text-gray-700">Password</label>
+              <label className="block text-sm font-medium text-gray-700">
+                Password
+              </label>
               <input
                 className="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200"
                 type="password"
                 name={mode === "login" ? "password" : "new-password"}
-                autoComplete={mode === "login" ? "current-password" : "new-password"}
-                value={password} onChange={(e) => setPassword(e.target.value)}
-                placeholder="Password" required
+                autoComplete={
+                  mode === "login" ? "current-password" : "new-password"
+                }
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Password"
+                required
               />
-              <p className="text-xs text-gray-500 mt-1">Minimum 6 characters.</p>
+              <p className="text-xs text-gray-500 mt-1">
+                Minimum 6 characters.
+              </p>
             </div>
 
             {/* Students — signup only */}
             {mode === "signup" && (
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Student(s)</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Student(s)
+                </label>
                 {students.map((student, index) => (
-                  <div key={index} className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-2">
+                  <div
+                    key={index}
+                    className="grid grid-cols-1 sm:grid-cols-3 gap-2 mb-2"
+                  >
                     <input
                       className="rounded-lg border border-gray-300 px-2 py-2 text-sm"
-                      type="text" placeholder="First name"
+                      type="text"
+                      placeholder="First name"
                       value={student.firstName}
-                      onChange={(e) => updateStudent(index, "firstName", e.target.value)}
+                      onChange={(e) =>
+                        updateStudent(index, "firstName", e.target.value)
+                      }
                       required
                     />
                     <input
                       className="rounded-lg border border-gray-300 px-2 py-2 text-sm"
-                      type="text" placeholder="Last name"
+                      type="text"
+                      placeholder="Last name"
                       value={student.lastName}
-                      onChange={(e) => updateStudent(index, "lastName", e.target.value)}
+                      onChange={(e) =>
+                        updateStudent(index, "lastName", e.target.value)
+                      }
                       required
                     />
                     <input
                       className="rounded-lg border border-gray-300 px-2 py-2 text-sm"
-                      type="text" placeholder="Grade"
+                      type="text"
+                      placeholder="Grade"
                       value={student.grade}
-                      onChange={(e) => updateStudent(index, "grade", e.target.value)}
+                      onChange={(e) =>
+                        updateStudent(index, "grade", e.target.value)
+                      }
                     />
                   </div>
                 ))}
-                <button type="button" onClick={addStudentField}
-                  className="text-sm font-medium text-blue-900 hover:underline">
+                <button
+                  type="button"
+                  onClick={addStudentField}
+                  className="text-sm font-medium text-blue-900 hover:underline"
+                >
                   + Add another child
                 </button>
               </div>
             )}
 
             {msg && (
-              <div className="text-sm rounded-lg border p-3 bg-gray-50 text-gray-700">{msg}</div>
+              <div className="text-sm rounded-lg border p-3 bg-gray-50 text-gray-700">
+                {msg}
+              </div>
             )}
 
             <button
               disabled={loading}
               className={`w-full rounded-lg px-4 py-2 font-semibold text-white transition ${
-                loading ? "bg-blue-400 cursor-not-allowed" : "bg-blue-900 hover:bg-blue-950"
+                loading
+                  ? "bg-blue-400 cursor-not-allowed"
+                  : "bg-blue-900 hover:bg-blue-950"
               }`}
               type="submit"
             >
-              {loading ? "Please wait..." : mode === "login" ? "Log In" : "Create Account"}
+              {loading
+                ? "Please wait..."
+                : mode === "login"
+                  ? "Log In"
+                  : "Create Account"}
             </button>
 
             {mode === "login" && (
-              <button type="button" onClick={forgotPassword}
-                className="text-sm font-medium text-blue-900 hover:underline">
+              <button
+                type="button"
+                onClick={forgotPassword}
+                className="text-sm font-medium text-blue-900 hover:underline"
+              >
                 Forgot password?
               </button>
             )}
