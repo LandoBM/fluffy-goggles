@@ -84,7 +84,7 @@ export default function Navbar() {
             </Link>
           </li>
 
-          {/* SPECIAL PAY TUITION BUTTON */}
+          {/* SPECIAL Parent Portal BUTTON */}
           <li>
             <Link
               to="/login"
@@ -92,7 +92,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="bg-green-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-green-800 transition whitespace-nowrap"
             >
-              Pay Tuition
+              Parent Portal
             </Link>
           </li>
         </ul>
@@ -152,7 +152,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="block bg-green-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-green-800 transition text-center"
           >
-            Pay Tuition
+            Parent Portal
           </Link>
         </div>
       )}
