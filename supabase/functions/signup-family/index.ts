@@ -2,7 +2,8 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Headers":
+    "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
 
@@ -12,28 +13,45 @@ Deno.serve(async (req) => {
     return new Response("ok", { headers: corsHeaders });
   }
 
-  const { email, password, familyName, parentName, phone, students } = await req.json();
+  const { email, password, familyName, parentName, phone, students } =
+    await req.json();
 
   const supabaseAdmin = createClient(
     Deno.env.get("SUPABASE_URL")!,
-    Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!
+    Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
   );
 
   try {
     // 1. Create auth user
-    const { data: authData, error: authErr } = await supabaseAdmin.auth.admin.createUser({
-      email,
-      password,
-      email_confirm: true,
-    });
+    const { data: authData, error: authErr } =
+      await supabaseAdmin.auth.admin.createUser({
+        email,
+        password,
+        email_confirm: true,
+      });
     if (authErr) throw authErr;
 
     const userId = authData.user.id;
 
+    // Create profile manually since trigger may not fire
+    const { error: profileErr } = await supabaseAdmin
+      .from("profiles")
+      .insert({ id: userId, role: "parent" });
+
+    // Ignore if already exists
+    if (profileErr && !profileErr.message.includes("duplicate")) {
+      throw profileErr;
+    }
+
     // 2. Create family
     const { data: family, error: famErr } = await supabaseAdmin
       .from("families")
-      .insert({ name: familyName, status: "pending", parent_name: parentName, phone: phone || null })
+      .insert({
+        name: familyName,
+        status: "pending",
+        parent_name: parentName,
+        phone: phone || null,
+      })
       .select()
       .single();
     if (famErr) throw famErr;
@@ -55,7 +73,9 @@ Deno.serve(async (req) => {
       }));
 
     if (studentRows.length > 0) {
-      const { error: studErr } = await supabaseAdmin.from("students").insert(studentRows);
+      const { error: studErr } = await supabaseAdmin
+        .from("students")
+        .insert(studentRows);
       if (studErr) throw studErr;
     }
 
