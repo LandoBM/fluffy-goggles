@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "../supabaseClient";
+import jsPDF from "jspdf";
 
 function money(cents) {
   return `$${(cents / 100).toFixed(2)}`;
@@ -246,9 +247,7 @@ export default function Portal() {
 
   // ── PDF export ────────────────────────────────────────────────
   const exportPDF = async () => {
-    const { default: jsPDF } = await import(
-      "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
-    ).then(() => ({ default: window.jspdf.jsPDF }));
+    
 
     const doc = new jsPDF();
     const pageW = doc.internal.pageSize.getWidth();
