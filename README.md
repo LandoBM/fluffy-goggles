@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Summer Crest Learning Academy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack parent portal and admin platform built for a childcare business, replacing manual, paper-based processes with a centralized digital system.
 
-## Available Scripts
+## Problem Statement
 
-In the project directory, you can run:
+Summer Crest Learning Academy managed enrollment, billing, and family communication through manual, paper-based processes. Parents had no self-service way to view announcements, track their child's records, or manage billing, and staff spent significant time on administrative tasks that could be handled through a digital system. The academy needed a secure, role-based platform that could scale as its feature set grew, without requiring a dedicated in-house engineering team to maintain it.
 
-### `npm start`
+## Methodology
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The platform was architected as an 18-page full-stack web application with two primary user experiences: a parent portal and an admin dashboard, each gated by role-based access control so that parents and staff only see what's relevant to them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Designed the PostgreSQL schema in Supabase to model families, students, billing records, and announcements, with authentication and row-level access rules enforced at the database layer.
+- Integrated a RESTful API through Supabase Edge Functions to handle secure data operations between the frontend and database.
+- Built a library of 7 reusable React components, including a collapsible navigation system, designed for extensibility as new features are added.
+- Developed a student ledger system to track billing and account activity, reducing the need for manual bookkeeping.
 
-### `npm test`
+## Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, reusable component library, collapsible navigation
+- **Backend:** Node.js, RESTful API via Supabase Edge Functions
+- **Database:** PostgreSQL (Supabase), authentication, role-based access control
+- **Hosting/Infra:** Supabase (Cloud)
 
-### `npm run build`
+## Results
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Deployed a production-ready, 18-page platform currently serving 15 active families.
+- Replaced manual admin workflows (enrollment tracking, billing, announcements) with a centralized digital system.
+- Established a component architecture designed to scale as the client's feature set expands, without requiring a full rebuild.
